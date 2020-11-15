@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1097B3D1255D4A4C009188AA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1097B3D0255D4A4C009188AA /* main.swift */; };
+		1097B3D8255D4AD6009188AA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1097B3D7255D4AD6009188AA /* Utilities.swift */; };
+		1097B3DA255D4B09009188AA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1097B3D9255D4B09009188AA /* Model.swift */; };
+		1097B3DC255D4B1A009188AA /* WaveFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1097B3DB255D4B1A009188AA /* WaveFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		1097B3CD255D4A4C009188AA /* WFC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WFC; sourceTree = BUILT_PRODUCTS_DIR; };
 		1097B3D0255D4A4C009188AA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1097B3D7255D4AD6009188AA /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		1097B3D9255D4B09009188AA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1097B3DB255D4B1A009188AA /* WaveFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				1097B3D0255D4A4C009188AA /* main.swift */,
+				1097B3D7255D4AD6009188AA /* Utilities.swift */,
+				1097B3D9255D4B09009188AA /* Model.swift */,
+				1097B3DB255D4B1A009188AA /* WaveFunction.swift */,
 			);
 			path = WFC;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1097B3DA255D4B09009188AA /* Model.swift in Sources */,
+				1097B3D8255D4AD6009188AA /* Utilities.swift in Sources */,
+				1097B3DC255D4B1A009188AA /* WaveFunction.swift in Sources */,
 				1097B3D1255D4A4C009188AA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
